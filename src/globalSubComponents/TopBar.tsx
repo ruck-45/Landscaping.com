@@ -21,7 +21,7 @@ const TopBar = () => {
         className="w-full px-[8px] py-[10px] text-[1rem] text-white"
         startContent={<IoMdMail />}
       >
-        Email : carint@gmail.com
+        Email : construction@gmail.com
       </Button>
       <Button
         variant="light"

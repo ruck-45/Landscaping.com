@@ -73,7 +73,7 @@ const Footer = () => {
                 <span className="text-white">
                   <IoLocation />
                 </span>
-                Location
+                Port Charlotte, Florida, USA
               </li>
               <li className="flex flex-row items-center gap-2 ">
                 <span className="text-white">
@@ -85,7 +85,7 @@ const Footer = () => {
                 <span className="text-white">
                   <MdEmail />
                 </span>
-                Demo@gmail.com
+                construction@gmail.com
               </li>
               <li className="flex flex-row items-center gap-2 py-[1rem] text-1xl">
                 <span className="text-2xl">
@@ -112,9 +112,10 @@ const Footer = () => {
           <div className="text-white text-[1.1rem] px-[2rem]">
             <ul>
               <li className="text-start">
-                necessary, making this the first true generator <br /> on the Internet.It uses a dictionary of over 200{" "}
+                Project and cost control are essential for
+                <br /> managing construction projects effectively
                 <br />
-                words, combined with a handful
+                within budget, and meet quality standards.
               </li>
             </ul>
           </div>

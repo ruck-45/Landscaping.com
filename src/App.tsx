@@ -20,7 +20,7 @@ import { RootState } from "./store/store";
 import PasswordReset from "./components/ForgetPassword/PasswordReset";
 import TopBar from "./globalSubComponents/TopBar";
 import Landing from "./components/Landing/Landing";
-
+import Robinhood from "./components/Robinhood/Robinhood";
 
 function App() {
   const curTab = useSelector((state: RootState) => state.curTab.value);
@@ -28,12 +28,12 @@ function App() {
   return (
     <>
       <div>
-        {curTab === "Auth" || curTab === "Password Reset" ? null : <TopBar />}
-        {curTab === "Auth" || curTab === "Password Reset" ? null : <NavBar />}
+        {curTab === "Auth" || curTab === "Password Reset" || curTab === "Robinhood" ? null : <TopBar />}
+        {curTab === "Auth" || curTab === "Password Reset" || curTab === "Robinhood" ? null : <NavBar />}
         <Routes>
-          {/* <Route path="/" element={<Navigate to="/Home" />} />
-          <Route path="/Home" element={<Home />} />
-          <Route path="/About" element={<About />} />
+          <Route path="/" element={<Navigate to="/Home" />} />
+          <Route path="/Home" element={<Landing />} />
+          {/* <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Pricing" element={<Pricing />} />
           <Route path="/Auth" element={<Auth />} />
@@ -41,15 +41,16 @@ function App() {
           <Route path="/Profile" element={<Profile />} />
           <Route path="/Blog/*" element={<Blog />} />
           <Route path="/Privacy" element={<Privacy />} /> */}
-          <Route path="/Landing" element={<Landing />} />
-          {/* <Route path="/ResetPassword" element={<PasswordReset />} />
-          <Route path="*" element={<Navigate to="/Home" />} /> */}
+          {/* <Route path="/Landing" element={<Landing />} /> */}
+          {/* <Route path="/ResetPassword" element={<PasswordReset />} /> */}
+          <Route path="/Robinhood" element={<Robinhood />} />
+          <Route path="*" element={<Navigate to="/Home" />} />
         </Routes>
       </div>
       {/* {curTab === "Auth" || curTab === "Password Reset" ? null : (
         <CTA text="❝ We Care for your Brand as Passionately as You Do. ❞" color="warning" showArrow={false} />
       )} */}
-      {curTab === "Auth" || curTab === "Password Reset" ? null : <Footer />}
+      {curTab === "Auth" || curTab === "Password Reset" || curTab === "Robinhood" ? null : <Footer />}
     </>
   );
 }

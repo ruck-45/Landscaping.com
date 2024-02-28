@@ -73,7 +73,7 @@ const Hero = () => {
       <Slider {...settings}>
         {features.map((data, index) => (
           <div className="sm:px-[1rem]">
-            <div className="bg-transparent rounded-3xl sm:p-[2rem] flex gap-[2rem] text-white">
+            <div className="bg-transparent rounded-3xl px-[1.2rem] sm:px-[2rem] py-[2rem] flex gap-[2rem] text-white">
               <div className="flex flex-col gap-[1rem]">
                 <div className="max-w-[23rem] md:max-w-[30rem] flex flex-col gap-[1rem]">
                   <h1 className="text-[2rem] leading-[2rem] font-bold text-center sm:text-left">{data.heading}</h1>
