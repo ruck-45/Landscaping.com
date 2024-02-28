@@ -1,7 +1,6 @@
-.bg-sec{
-    background-image: url("https://img.freepik.com/free-psd/builder-carries-steel-beam-his-shoulder-generative-ai_587448-1874.jpg?w=826&t=st=1709040327~exp=1709040927~hmac=58fb62a08c48051d5d522f97c4b622491061a4e97231919245a6025a34024da5");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.bg-sec {
+  background-image: url("https://images.unsplash.com/photo-1519462568576-0c687427fb2e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-

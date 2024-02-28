@@ -85,7 +85,7 @@ const Footer = () => {
                 <span className="text-white">
                   <MdEmail />
                 </span>
-                construction@gmail.com
+                landscape@gmail.com
               </li>
               <li className="flex flex-row items-center gap-2 py-[1rem] text-1xl">
                 <span className="text-2xl">
@@ -112,10 +112,9 @@ const Footer = () => {
           <div className="text-white text-[1.1rem] px-[2rem]">
             <ul>
               <li className="text-start">
-                Project and cost control are essential for
-                <br /> managing construction projects effectively
-                <br />
-                within budget, and meet quality standards.
+                Trust Us for professional service
+                <br /> that enhance the beauty <br />
+                of your outdoor environment.
               </li>
             </ul>
           </div>

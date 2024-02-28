@@ -10,10 +10,10 @@ const Landing = () => {
   return (
     <div>
       <Hero />
-      <Project />
-      <Middle />
       <Services />
       <ServiceDetails />
+      <Middle />
+      <Project />
       <Below />
     </div>
   );

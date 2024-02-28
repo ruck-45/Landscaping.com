@@ -1,7 +1,7 @@
 import React from "react";
-import "./Middle.css"
+import "./Middle.css";
 const Middle = () => {
-  return <div className="bg-sec h-[20rem] "></div>;
+  return <div className="bg-transparent h-[20rem] "></div>;
 };
 
 export default Middle;
